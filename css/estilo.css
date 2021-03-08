@@ -1,0 +1,134 @@
+                             /* ******Layout********* */
+
+/*área do cabeçalho total*/
+#area-cabecalho{
+	background-color:#f7b600;
+	padding: 15px;
+	text-align: center;
+
+}
+/*área logo é apenas a parte do tecBlog, e area menu é area dos links*/
+#area-logo,#area-menu{
+	padding: 10px;
+}
+
+
+#area-cabecalho a:link,#area-cabecalho a:visited{
+	color:#fff;
+}
+#area-cabecalho a:hover{
+	color:#e6e6e6;
+	background: white;
+	text-decoration: none;
+}
+/*envolve toda a área abaixo do cabeçalho area lateral+area de postagem*/
+#area-Principal{
+	padding:10px;
+	width:920px;
+	margin: 0 auto;
+	margin-top:5px
+	
+}
+/*envolve apenas a área do lado esquerdo da área principal*/
+#area-postagem{
+	width:660px;
+	float: left;
+
+}
+/*responsável pela formatação de cada postagem*/
+.postagem{
+	padding: 20px;
+	margin-bottom:20px;
+	background: white;
+	
+}
+
+.data-postagem{
+	font-size:0.8em;
+	border-bottom:1px solid #f7b600;
+	padding-bottom:10px;
+	margin-bottom: 10px;
+	display: block; 
+}
+/*envolve apenas a área do lado direto*/
+#area-lateral{
+	width: 240px;
+	float: right;
+}
+
+/*envolve toda a parte branca*/
+.conteudo-lateral{
+	background: white;
+	padding:10px;
+	margin-bottom:20px; 
+
+}
+/*envolve o conteudo que ta dentro da parte branca */
+.postagem-lateral{
+	font-size:0.8em;
+	padding: 5px;
+	border-bottom:1px dotted #CCC;
+
+}
+/*área de formatação dos direitos reservados que fica dentro da area principal*/
+#rodape{
+	clear:both;/*remove o fluxo dos elementos flutuantes*/
+	background:#ccc;
+	text-align: center;
+	padding: 10px;
+
+}
+
+
+
+                         /* ***** formatação do menu ****** */
+
+a{/*formatação de todos os links*/
+	padding: 5px 10px;
+	text-decoration: none;
+}
+
+/*Estados dos links*/
+a:link,a:visited{/*links que n foram visitados e links que foram visitados*/
+	color:#f7b600;
+}
+a:hover{/*Quando passa o cursor por cima do link*/
+	text-decoration:underline;
+}
+
+
+
+                         /* ********Formatações em geral********* */
+
+/*uma classe apenas pra deixar a cor branca*/
+.branco{
+	color: white;
+}
+
+h1{
+	color:#4e4e4e;
+	font-size:2.5em;
+}
+h2{
+	color:#f7b600;
+}
+h3{
+	color:#565656;
+	background:#ccc;
+	padding:5px;
+}
+
+body{
+	font-size:1em;
+	font-family: "Trebuchet MS",Helvetica,sans-serif;
+	background: #e6e6e6;
+}
+
+
+/*limpar formatação padrão*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
